@@ -1,0 +1,232 @@
+/* ==========================================
+   GLOBAL AUTH STYLES (Purple Theme)
+========================================== */
+
+.auth-container {
+  width: 420px;
+  margin: 80px auto;
+  background: #f7f4ff;
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(120, 64, 230, 0.2);
+  text-align: center;
+}
+
+.auth-container h2 {
+  color: #5a2ccf;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.auth-container input,
+.auth-container select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  border: 1px solid #cfc2ff;
+  background: white;
+  font-size: 1rem;
+  outline: none;
+}
+
+.auth-container input:focus,
+.auth-container select:focus {
+  border-color: #7b4dff;
+  box-shadow: 0 0 6px rgba(120, 64, 230, 0.4);
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #6b2eff, #9c6bff);
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-btn:hover {
+  background: linear-gradient(90deg, #5921e8, #8754ff);
+}
+
+.auth-link {
+  margin-top: 15px;
+  display: block;
+  color: #5a2ccf;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.admin-container,
+.conf-container {
+  width: 70%;
+  margin: 80px auto;
+  padding: 40px;
+  background: #f4efff;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgba(120, 64, 230, 0.3);
+}
+
+.admin-container h1,
+.conf-container h1 {
+  font-size: 2.4rem;
+  color: #5a2ccf;
+  text-align: center;
+}
+
+.conf-container p {
+  font-size: 1.2rem;
+  color: #3b2f58;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+.auth-container {
+  width: 380px;
+  margin: auto;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.auth-container input,
+.auth-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-btn {
+  width: 100%;
+  background: #0066cc;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background: #004c99;
+}
+
+.participant-box {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background: #f9f9f9;
+}
+
+.list-box {
+  padding: 10px;
+  background: #e9f2ff;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.admin-page {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admin-header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #48cae4;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.admin-tabs button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ccc;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.admin-tabs button.active {
+  background: #0096c7;
+  color: white;
+}
+
+.admin-content {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+.view-btn {
+  padding: 5px 10px;
+  background: #48cae4;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-btn:hover {
+  background: #0096c7;
+}
+
+/* Dashboard charts container */
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.chart-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+.chart-box h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .chart-container {
+    flex-direction: column;
+  }
+  .admin-tabs {
+    flex-direction: column;
+  }
+}
